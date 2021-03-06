@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+
+    a {text-decoration: none;}
+    margin: 0;
+    padding: 0;
+  
+}
+
+.whole{
+    background-color: #fffdf5;
+}
+
+.nav-style {
+    
+    background-color: #865b33;
+    
+ 
+    li {
+        font-size: 2em;
+        color: whitesmoke;
+        // text-decoration: none;
+    }
+}
+
+//headings Menu
+
+
+h2 {
+    font-size: 3em;
+}
+
+
+
+#menu p{
+    font-size: 1.5em;
+}
+
+#menu h5{
+    font-size: 2em;
+}
+
+#menu img {
+    width: 100%;    /* or 100% of container */
+    height: 22em;      /*  or 100% of container */
+    object-fit: cover; /* none can be an option too as cover may deform it*/
+    object-position: 50% 50%; /* if both 50% will center it*/
+
+}
+
+.card-style {
+    background-color: #ebd6af;
+}
+
+
+.footer {
+    background-color: #865b33 ;
+
+    li {
+        color: whitesmoke;
+    }
+    
+}
+
+//Review page::after
+
+.review-style p {
+    font-style: italic;
+
+
+}
