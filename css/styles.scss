@@ -8,6 +8,7 @@
 //standard background-color
 .whole{
     background-color: #e2e0d6;
+    height: auto;
 }
 
 //background color for navbar
@@ -52,6 +53,16 @@
 
 }
 
+.card {
+    border-radius: 0.7em;
+
+    img {
+        border-top-left-radius: .7em;
+        border-top-right-radius: 0.7em;
+    }
+}
+
+
 //background-color for cards
 .card-style {
     background-color: #ebd6af;
@@ -59,7 +70,7 @@
 
 .card-body {
     position: relative;
-    height: 40%;
+    height: 48%;
     padding: 0;
   }
   .card-footer{
@@ -71,8 +82,15 @@
   }
   .card-text {
     /* height: 35%; */
-    min-height: 35%;
+    min-height: 27%;
+   
   }
+
+#beverages .card-footer {
+    min-height: 33%;
+
+}
+
 
 //footer-styling
 
@@ -91,6 +109,20 @@
 
 .review-style p {
     font-style: italic;
+    font-size: 1.7em;
+  
+}
+
+
+//About page:
+
+
+.about-image {
+    margin-bottom: 6vh;
+}
+
+.text-wrapper {
+    padding: 0 5vw 0 5vw;
 }
 
 
@@ -103,7 +135,8 @@
     width: 70%;
 }
 .contact-form .form-control{
-    border-radius:1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1em;
 }
 .contact-image{
     text-align: center;
@@ -129,8 +162,9 @@
 .contact-form .btnContact {
     width: 50%;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 1.5%;
+    margin-bottom: 2em;
     background: #dc3545;
     font-weight: 600;
     color: #fff;
@@ -146,3 +180,44 @@
     border: none;
     cursor: pointer;
 }
+
+// media queries review page
+
+@media only screen and (max-width:520px) {
+
+    .review-style {
+        padding-bottom: 0vh!important;
+    }
+
+    .review-style p {
+        font-size: 0.75em;
+        text-shadow: 2px 2px 4px grey;
+        padding-bottom: 0vh!important; //to override the standard Bootstrap padding
+        // color: grey;
+    }
+
+    .review-style h3 {
+        font-size: 0.75em;
+        text-shadow: 2px 2px 4px grey;
+    }
+    
+}
+
+@media only screen and (min-width:521px) and (max-width: 991px) {
+
+    .review-style p {
+        font-size: 1.2em;
+      
+    }
+    
+}
+
+
+// @media only screen and (min-width:992px) {
+
+//     .review-style p {
+//         font-size: 2em!important;
+              
+//     }
+    
+// }

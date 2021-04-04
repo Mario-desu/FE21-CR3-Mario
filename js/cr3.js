@@ -1,4 +1,5 @@
 //1st JS-task:
+//Use the prices on your menu to create four variables that you will pass to the function calculateInvoice as arguments. Print the result on the console. 
 
 function calculateInvoice(starterPrice,maindishPrice,dessertPrice,beveragePrice) {
     
@@ -14,7 +15,6 @@ console.log (`Sum:${invoiceSum}`);//Sum: 33 -> check in console
 
 
 
-//2nd JS-task:
 
 var harumaki=5;
 var tonkatsu=14;
@@ -26,9 +26,10 @@ var invoiceMario = calculateInvoice (harumaki,tonkatsu,daifuku,beer);
 console.log(`Sum Mario: ${invoiceMario}`);//Sum Mario: 28 ->check in console
 
 
+//2nd JS-task:
+//Create at least 3 different combinations of different dishes on your menu to calculate the invoice and print it on the console.
 
 
-//3rd task:
 
 //Combi 1
 var edamame=4;
@@ -55,6 +56,7 @@ console.log(`Sum Combi2: ${combi2}`);//Sum Combi2: 22 ->check in Console
 
 //Combi 3
 
+
 var chawanmushi=5;
 var curry=11;
 var cake=4;
@@ -68,6 +70,10 @@ console.log(`Sum Combi3: ${combi3}`);//Sum Combi3: 24 ->check in Console
 
 
 //Bonus task
+
+//3rd task:
+/*Create a function studentInvoice that will apply a 10% discount to the final invoice. This function should have the same parameters as the function calculateInvoice. This discount applies to the dishes but NOT the beverages. Print 3 examples of studentInvoice on the console.*/
+
 
 
 

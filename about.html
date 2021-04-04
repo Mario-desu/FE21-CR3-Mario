@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Kobayashi</title>
@@ -10,8 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous">
     <!--intern css link-->
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -31,12 +30,14 @@
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"
-            id="navbarNav">
+            id="navbarNav"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
@@ -69,10 +70,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="reviews.html">REVIEWS</a ><!--Link to review-page-->
+                <a class="nav-link active" href="reviews.html">REVIEWS</a><!--Link to review-page-->
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="index.html">ABOUT</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACT</a><!--link to contact page-->
@@ -82,59 +83,21 @@
         </div>
       </nav>
 
-  <div class="container mt-5">
-    <h1 class="text-center">Guest Reviews</h1>
-  </div>
-
-  <!--Carousel Slideshow with reviews by customers-->
-  
+  <!--Contact form-->
+    
   <div class="container">
-    <div id="carouselExampleControls" class="carousel slide mt-3 mb-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/review-imgs/heritage-5430081_1280.jpg" class="d-block w-100 img-thumbnail" alt="Himeji">
-            <div class="carousel-caption d-md-block shadow review-style">
-              <h3>Peter, <em>Vienna</em></h3>
-              <p>
-                First time in Kobayashi and You have to go! It’s the cutest little spot with amazing food. Kobayashi is to die for.</p>
-            </div>
-          </div>
-          <div class="carousel-item font-white">
-            <img src="img/review-imgs/asia-1822520_1280.jpg" class="d-block w-100 img-thumbnail" alt="Japanese">
-            <div class="carousel-caption d-md-block review-style">
-              <h3>Steven, <em>Klosterneuburg</em></h3>
-              <p>This place is great! Atmosphere is authentic but the staff is also really friendly. They know what they’re doing and what they’re talking about!</p>
-            </div>
-          </div>
-          <div class="carousel-item font-white">
-            <img src="img/review-imgs//japanese-garden-1149852_1280.jpg" class="d-block w-100 img-thumbnail" alt="Kyoto">
-            <div class="carousel-caption d-md-block review-style">
-              <h3>Franziska, <em>Linz</em></h3>
-              <p>
-                Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining.  Highly recommended.</p>
-            </div>
-          </div>
-          <div class="carousel-item font-white">
-            <img src="img/review-imgs/landscape-2389023_1280.jpg" class="d-block w-100 img-thumbnail" alt="Tea">
-            <div class="carousel-caption d-md-block review-style">
-              <h3>Helen, <em>Graz</em></h3>
-              <p>
-                Do yourself a favor and visit this lovely restaurant in Kobayashi. The service is unmatched. The staff truly cares about your experience. The food is absolutely amazing.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-</div>
 
-
+    <div class="container my-5 text-wrapper">
+        <h1 class="text-center">About us</h1>       
+        <p>
+            Opened in 1989, the Kobayashi was one of the first authentic Japanese Restaurants in Austria. Our founder Takayuki Kobayashi was born in Osaka, Japan. Since the start of his career as an apprentice in a traditional Japanese Izakaya in downtown Osaka, he has always been dreaming of opening his own restaurant. During his time in France in 1988 he met his current wife, who is Austrian. He decided to follow her to Austria, where he made his dream come true and opened the Restaurant Kobayashi in the center of Vienna. Despite the long history we are still one of the most well known Japanese Restaurants in the Austrian Capital
+        </p>
+    </div>
+    <div class="container about-image px-5 mt-4">
+        <img src="img/12-Chureito-pagoda-and-Mount-Fuji-Japan_(29677439878).jpg" alt="Fuji" class="img-fluid">
+    </div>
+  </div>
+  
   <!--footer-section-->
 
   <div class="container-fluid footer">
@@ -146,7 +109,7 @@
             <!--align list in center/list inline/footer-list (SCSS)-->
             <a href="index.html"><li class="list-inline-item fs-4 me-2">Home</li></a>
             <a href="reviews.html"><li class="list-inline-item fs-4 me-2">Reviews</li></a><!--link to review page-->
-            <a href="about.html"><li class="list-inline-item fs-4 me-2">About</li></a>
+            <a href="#"><li class="list-inline-item fs-4 me-2">About</li></a>
             <a href="contact.html"><li class="list-inline-item fs-4">Contact</li></a><!--link to contact page-->
           </ul>
         </div>
