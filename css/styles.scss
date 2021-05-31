@@ -6,7 +6,7 @@
     a {text-decoration: none;}
 }
 //standard background-color
-.whole{
+body {
     background-color: #e2e0d6;
     height: auto;
 }
@@ -68,28 +68,25 @@
     background-color: #ebd6af;
 }
 
-.card-body {
-    position: relative;
-    height: 48%;
-    padding: 0;
-  }
-  .card-footer{
-    height: 25%;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    /* left: 50%; */
-  }
-  .card-text {
-    /* height: 35%; */
-    min-height: 27%;
+// .card-body {
+//     position: relative;
+//     height: 48%;
+//     padding: 0;
+//   }
+//   .card-footer{
+//     height: 25%;
+//     position: absolute;
+//     width: 100%;
+//     bottom: 0;
+//     /* left: 50%; */
+//   }
+//   .card-text {
+//     /* height: 35%; */
+//     min-height: 27%;
    
-  }
+//   }
 
-#beverages .card-footer {
-    min-height: 33%;
 
-}
 
 
 //footer-styling
@@ -97,11 +94,22 @@
 .footer {
     background-color: #865b33 ;
 
+   
     li {
         color: whitesmoke;
     }
     
 }
+
+//Fixed footer
+
+.fixedFooter {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
 
 //Review page:
 
