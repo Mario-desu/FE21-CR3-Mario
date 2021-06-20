@@ -115,6 +115,11 @@ body {
 
 //change all p on review test to italic
 
+.reviews-wrapper{
+
+    margin-bottom: 20vh!important;
+}
+
 .review-style p {
     font-style: italic;
     font-size: 1.7em;
@@ -216,6 +221,17 @@ body {
     .review-style p {
         font-size: 1.2em;
       
+    }
+    
+}
+
+@media only screen and (min-width:1198px) {
+
+    .fixedFooter {
+        position: fixed;
+        height: 100px;
+        bottom: 0;
+        width: 100%;
     }
     
 }
